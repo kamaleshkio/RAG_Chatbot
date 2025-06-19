@@ -53,8 +53,6 @@ for f in files:
                 file.write("# Main entry point for the RAG-ChatBot application\n")
             elif f.endswith("init.py"):
                 file.write("# Initialize the RAG-ChatBot package\n")
-            elif f.endswith("test_main.ipynb"):
-                file.write("# Jupyter Notebook for testing the main functionality\n")
             elif f.endswith("logger.py"):
                 file.write("# Logger configuration for the RAG-ChatBot application\n")
             elif f.endswith("exceptions.py"):
